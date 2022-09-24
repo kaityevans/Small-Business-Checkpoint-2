@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 10px;
+}
+
+#Header-Links,
+li {
+  list-style: none;
+  font-size: 18px;
+  display: inline;
+}
+
+/* Details Image */
+/* .map-container {
+  border: solid black 2px;
+  height: 300px;
+  width: 300px;
+} */
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add Page */
+.Add-main-container {
+  columns: 2 auto;
+}
+
+#standard-basic {
+  width: 600px;
+}
+.add-container {
+ columns: 1 auto;
+ 
+}
+
+.Logout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
